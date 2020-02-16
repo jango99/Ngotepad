@@ -1,0 +1,325 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:Elite-C U1
+U 1 1 5DFA8FFC
+P 7300 1800
+F 0 "U1" H 7300 2637 60  0000 C CNN
+F 1 "Elite-C" H 7300 2531 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 8350 -700 60  0001 C CNN
+F 3 "" V 8350 -700 60  0001 C CNN
+	1    7300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DFAF44F
+P 6600 1450
+F 0 "#PWR0101" H 6600 1200 50  0001 C CNN
+F 1 "GND" V 6605 1322 50  0000 R CNN
+F 2 "" H 6600 1450 50  0001 C CNN
+F 3 "" H 6600 1450 50  0001 C CNN
+	1    6600 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DFB054A
+P 6600 1550
+F 0 "#PWR0102" H 6600 1300 50  0001 C CNN
+F 1 "GND" V 6605 1422 50  0000 R CNN
+F 2 "" H 6600 1550 50  0001 C CNN
+F 3 "" H 6600 1550 50  0001 C CNN
+	1    6600 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DFB30A6
+P 8000 1350
+F 0 "#PWR0103" H 8000 1100 50  0001 C CNN
+F 1 "GND" V 8005 1222 50  0000 R CNN
+F 2 "" H 8000 1350 50  0001 C CNN
+F 3 "" H 8000 1350 50  0001 C CNN
+	1    8000 1350
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5DFB3FAD
+P 8000 1550
+F 0 "#PWR0104" H 8000 1400 50  0001 C CNN
+F 1 "VCC" V 8017 1678 50  0000 L CNN
+F 2 "" H 8000 1550 50  0001 C CNN
+F 3 "" H 8000 1550 50  0001 C CNN
+	1    8000 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L keebio:MX_LED SW_A1
+U 1 1 5E0322A7
+P 5150 2850
+F 0 "SW_A1" H 5150 3150 50  0000 C CNN
+F 1 "MX_LED" H 5150 3059 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5150 2850 50  0001 C CNN
+F 3 "" H 5150 2850 50  0001 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX_LED SW_A2
+U 1 1 5E034F42
+P 5700 2850
+F 0 "SW_A2" H 5700 3150 50  0000 C CNN
+F 1 "MX_LED" H 5700 3059 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5700 2850 50  0001 C CNN
+F 3 "" H 5700 2850 50  0001 C CNN
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX_LED SW_B1
+U 1 1 5E038B86
+P 5150 3250
+F 0 "SW_B1" H 5150 3550 50  0000 C CNN
+F 1 "MX_LED" H 5150 3459 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5150 3250 50  0001 C CNN
+F 3 "" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX_LED SW_B2
+U 1 1 5E038B8C
+P 5700 3250
+F 0 "SW_B2" H 5700 3550 50  0000 C CNN
+F 1 "MX_LED" H 5700 3459 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5700 3250 50  0001 C CNN
+F 3 "" H 5700 3250 50  0001 C CNN
+	1    5700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX_LED SW_C1
+U 1 1 5E03932A
+P 5150 3650
+F 0 "SW_C1" H 5150 3950 50  0000 C CNN
+F 1 "MX_LED" H 5150 3859 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5150 3650 50  0001 C CNN
+F 3 "" H 5150 3650 50  0001 C CNN
+	1    5150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX_LED SW_C2
+U 1 1 5E039330
+P 5700 3650
+F 0 "SW_C2" H 5700 3950 50  0000 C CNN
+F 1 "MX_LED" H 5700 3859 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5700 3650 50  0001 C CNN
+F 3 "" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:MX_LED SW_D1
+U 1 1 5E03A316
+P 5150 4050
+F 0 "SW_D1" H 5150 4350 50  0000 C CNN
+F 1 "MX_LED" H 5150 4259 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5150 4050 50  0001 C CNN
+F 3 "" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2850 5350 3250
+Connection ~ 5350 3250
+Wire Wire Line
+	5350 3250 5350 3650
+Connection ~ 5350 3650
+Wire Wire Line
+	5350 3650 5350 4050
+Connection ~ 5350 4050
+Wire Wire Line
+	5350 4050 5350 4200
+Wire Wire Line
+	5900 2850 5900 3250
+Connection ~ 5900 3250
+Wire Wire Line
+	5900 3250 5900 3650
+Connection ~ 5900 3650
+$Comp
+L power:GND #PWR0105
+U 1 1 5E03B50C
+P 5350 4200
+F 0 "#PWR0105" H 5350 3950 50  0001 C CNN
+F 1 "GND" H 5355 4027 50  0000 C CNN
+F 2 "" H 5350 4200 50  0001 C CNN
+F 3 "" H 5350 4200 50  0001 C CNN
+	1    5350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E03BF2A
+P 5900 4200
+F 0 "#PWR0106" H 5900 3950 50  0001 C CNN
+F 1 "GND" H 5905 4027 50  0000 C CNN
+F 2 "" H 5900 4200 50  0001 C CNN
+F 3 "" H 5900 4200 50  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 1650 0    50   Input ~ 0
+SWA2
+Text GLabel 4950 2850 1    50   Input ~ 0
+SWA1
+Text GLabel 4950 3250 1    50   Input ~ 0
+SWB1
+Text GLabel 4950 3650 1    50   Input ~ 0
+SWC1
+Text GLabel 4950 4050 1    50   Input ~ 0
+SWD1
+Connection ~ 5900 4050
+Wire Wire Line
+	5900 4050 5900 4200
+Wire Wire Line
+	5900 3650 5900 4050
+$Comp
+L keebio:MX_LED SW_D2
+U 1 1 5E03A31C
+P 5700 4050
+F 0 "SW_D2" H 5700 4350 50  0000 C CNN
+F 1 "MX_LED" H 5700 4259 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5700 4050 50  0001 C CNN
+F 3 "" H 5700 4050 50  0001 C CNN
+	1    5700 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 4050 1    50   Input ~ 0
+SWD2
+Text GLabel 5500 3650 1    50   Input ~ 0
+SWC2
+Text GLabel 5500 3250 1    50   Input ~ 0
+SWB2
+Text GLabel 6600 1750 0    50   Input ~ 0
+SWA1
+Text GLabel 6600 1950 0    50   Input ~ 0
+SWB2
+Text GLabel 6600 2050 0    50   Input ~ 0
+SWC1
+Text GLabel 6600 2150 0    50   Input ~ 0
+SWC2
+Text GLabel 6600 2250 0    50   Input ~ 0
+SWD1
+Text GLabel 6600 2350 0    50   Input ~ 0
+SWD2
+Text GLabel 5500 2850 1    50   Input ~ 0
+SWA2
+$Comp
+L Device:Rotary_Encoder_Switch SW_E1
+U 1 1 5E04A0CF
+P 7300 3400
+F 0 "SW_E1" H 7300 3767 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 7300 3676 50  0000 C CNN
+F 2 "" H 7150 3560 50  0001 C CNN
+F 3 "~" H 7300 3660 50  0001 C CNN
+	1    7300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW_E2
+U 1 1 5E04C0DB
+P 7300 4050
+F 0 "SW_E2" H 7300 4417 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 7300 4326 50  0000 C CNN
+F 2 "" H 7150 4210 50  0001 C CNN
+F 3 "~" H 7300 4310 50  0001 C CNN
+	1    7300 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 2350 2    50   Input ~ 0
+SWC3
+Text GLabel 8000 2250 2    50   Input ~ 0
+SWD3
+$Comp
+L power:GND #PWR0107
+U 1 1 5E053B0E
+P 7600 3300
+F 0 "#PWR0107" H 7600 3050 50  0001 C CNN
+F 1 "GND" V 7605 3172 50  0000 R CNN
+F 2 "" H 7600 3300 50  0001 C CNN
+F 3 "" H 7600 3300 50  0001 C CNN
+	1    7600 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E0546A3
+P 7600 3950
+F 0 "#PWR0108" H 7600 3700 50  0001 C CNN
+F 1 "GND" V 7605 3822 50  0000 R CNN
+F 2 "" H 7600 3950 50  0001 C CNN
+F 3 "" H 7600 3950 50  0001 C CNN
+	1    7600 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E0555B2
+P 7000 3400
+F 0 "#PWR0109" H 7000 3150 50  0001 C CNN
+F 1 "GND" V 7005 3272 50  0000 R CNN
+F 2 "" H 7000 3400 50  0001 C CNN
+F 3 "" H 7000 3400 50  0001 C CNN
+	1    7000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E05630C
+P 7000 4050
+F 0 "#PWR0110" H 7000 3800 50  0001 C CNN
+F 1 "GND" V 7005 3922 50  0000 R CNN
+F 2 "" H 7000 4050 50  0001 C CNN
+F 3 "" H 7000 4050 50  0001 C CNN
+	1    7000 4050
+	0    1    1    0   
+$EndComp
+Text GLabel 7000 3300 0    50   Input ~ 0
+Enc1A
+Text GLabel 7000 3500 0    50   Input ~ 0
+Enc1B
+Text GLabel 7600 3500 2    50   Input ~ 0
+SWC3
+Text GLabel 7600 4150 2    50   Input ~ 0
+SWD3
+Text GLabel 7000 3950 0    50   Input ~ 0
+Enc2A
+Text GLabel 7000 4150 0    50   Input ~ 0
+Enc2B
+Text GLabel 7100 2750 3    50   Input ~ 0
+Enc1A
+Text GLabel 7400 2750 3    50   Input ~ 0
+Enc2A
+Text GLabel 7500 2750 3    50   Input ~ 0
+Enc2B
+Text GLabel 6600 1850 0    50   Input ~ 0
+SWB1
+Text GLabel 7200 2750 3    50   Input ~ 0
+Enc1B
+$EndSCHEMATC
