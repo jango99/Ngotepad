@@ -4,7 +4,7 @@
 
 a 4x2 macropad that supports two rotary encoders.
 
-Keyboard Maintainer: [Khix/jango99](https://github.com/jango99)
+Keyboard Maintainer: [Jason Ngo/jango99](https://github.com/jango99)
 
 Hardware Supported: Elite-C, atmega32u4 based MCU
 
