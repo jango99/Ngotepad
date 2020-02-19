@@ -1,0 +1,1 @@
+The ngotepad folder in this directory is the firmware for the macropad. Place this folder in your qmk_firmware\keyboards directory and compile like you would any other QMK board.
