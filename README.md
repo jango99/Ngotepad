@@ -1,5 +1,5 @@
 # Ngotepad
-Introducing the Ngotepad, a 4x2 macropad that supports two rotary encoders.
+Introducing the Ngotepad (Pronounced like "notepad"), a 4x2 macropad that supports two rotary encoders.
 ![Ngotepad](https://i.imgur.com/4iu1xp2.jpg)
 
 ![image](https://i.imgur.com/e06KURg.jpg)
