@@ -1,6 +1,6 @@
 # Ngotepad
 
-![Ngotepad](https://imgur.com/a/gIznjGb)
+![Ngotepad](https://i.imgur.com/H0IpxtU.png)
 
 a 4x2 macropad that supports two rotary encoders.
 
