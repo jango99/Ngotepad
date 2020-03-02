@@ -2,6 +2,8 @@
 
 ![Ngotepad](https://i.imgur.com/H0IpxtU.png)
 
+![image](https://i.imgur.com/oXS0u8c.jpg)
+
 a 4x2 macropad that supports two rotary encoders.
 
 Keyboard Maintainer: [Jason Ngo/jango99](https://github.com/jango99)
