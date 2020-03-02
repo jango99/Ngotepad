@@ -22,8 +22,8 @@
     { B4, B5, B2 } \
 }
 
-#define ENCODERS_PAD_A { B7, D5 }
-#define ENCODERS_PAD_B { F1, F0 }
+#define ENCODERS_PAD_A { B7, F1 }
+#define ENCODERS_PAD_B { D5, F0 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
