@@ -56,11 +56,11 @@ void encoder_update_user(uint8_t index, bool clockwise)
 	{
 		if (clockwise) 
 		{    
-			tap_code(KC_WH_R);
+			tap_code(KC_WH_L);
         } 
 		else 
 		{
-            tap_code(KC_WH_L);
+            tap_code(KC_WH_R);
         }
 	}
 }
